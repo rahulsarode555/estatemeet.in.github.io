@@ -1,0 +1,42 @@
+﻿body {
+}
+
+.divMain {
+    border:solid 2px blue;
+    margin:10px;
+}
+
+.featured-image {
+    width:100%;    
+}
+
+.profile-image img {
+   width:35%;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.title h1 {
+    font-size: 56px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.description {
+    font-size: 38px;
+}
+
+.details-table li {
+    color:rgb(128, 49, 160);
+    font-size: 22px;
+    list-style-type:none;
+}
+.label {
+    color:rgb(128, 49, 160);
+}
+
+.whatsapp {
+    width:70px;
+}

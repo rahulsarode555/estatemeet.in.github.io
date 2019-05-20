@@ -1,0 +1,367 @@
+﻿
+.root {
+    background-color: rgb(128, 49, 160);
+    background-image:url('Site_Images/bk.png');
+}
+
+.btn {
+    background: #878dfe;
+	border: 1px solid rgb(128, 49, 160);
+	padding: 8px 10px 8px 10px;
+	color: black;
+    font-weight:bold;
+}
+
+    .btn:hover {
+        background: rgb(128, 49, 160);
+        color: white;
+    }
+.multi_Select_Format {
+    padding: 6px 4px;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.select_Format {
+    height: 30px;
+    padding: 6px 4px;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.txt_Format {
+    padding: 4px 4px;
+    font-size: 14px;
+    line-height: 1.2;
+    width:165px;
+}
+
+.txt_Area_Format {
+    padding: 4px 8px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    width:165px;
+}
+
+.div_Terms_Cond {
+    padding-top:6px;
+    padding-bottom:6px;
+    font-size: 12px;
+    width:160px;
+}
+
+.side_Bar {
+    position:fixed;
+    top:170px;
+    right:0px;
+    width:25px;   
+}
+
+.side_Bar_WhatsApp {
+    position:fixed;
+    top:300px;
+    right:0px;
+    width:25px;
+}
+
+
+.why_BrokerPluss {
+    font-weight:bold;
+    font-size:25px;
+    text-decoration-line:none;
+}
+
+.why_BrokerPluss:hover {    
+    text-decoration-line:underline;
+    color:teal;
+}
+
+.td_View_Full {
+    width:30px;
+}
+
+.tr_View_Full {        
+    background-color:rgb(220, 230, 228);
+    height:30px; 
+}
+
+.tr_Color {   
+    background-color:rgb(220, 230, 228);
+    height:30px; 
+}
+
+
+
+.td_Padding {
+    padding-left:30px
+}
+
+.div_Search_Result {
+    Border:solid 1px grey;
+    padding:10px;
+    margin:0px 10px 0px 10px;    
+    font-family:Arial;
+}
+
+.lbl_Header_Mobile {
+    font-size:16px;
+    font-weight:bold;
+    font-family:Arial;
+}
+
+.div_Master2 {
+    padding-top:10px;
+    border:solid 0px red;
+    height: 30px;width:100%;
+    font-family: Bookman Old Style;
+    background-color: rgb(128, 49, 160);
+}
+
+
+.input_Size {
+    width:180px;
+}
+
+
+.input_Small_Size {
+    width:100px;
+}
+
+ 
+.input_Min_Max {
+    width:70px;
+}
+
+.input_Min_Max_Txt {
+    width:40px;
+}
+
+
+
+.zoom {
+    
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.heading {
+    font-family:Arial;
+    font-size:40px;
+    font-weight:bold;
+    color:rgb(128, 49, 160);
+}
+
+.sub_Heading {
+    font-family:Arial;
+    font-size:18px;
+    font-weight:bold;
+    color:rgb(128, 49, 160);
+}
+
+
+.tr_Height {
+    height:40px;    
+}
+
+.tr_Amenities {
+    height:120px;    
+}
+
+.tr_Desc {
+    height:130px;    
+}
+
+
+.searchTab{
+    width:300px;
+    height:420px;
+    position:absolute;
+    top:20px;
+    left:10px;
+    border:solid 1px gray;
+    padding-left:20px;
+    font-family: 'Book Antiqua';
+    font-size:medium;
+}
+
+.searchTabMobile{
+    padding:10px;    
+    font-family: Candara;
+    font-size:13px;
+    background-color:rgb(128, 49, 198);
+    color:white;
+}
+.listAtt {
+    font-size:12px;
+    width:70px;
+}
+
+
+.div_Price {
+    position:absolute;top:10px;right:10px;
+    color:red;
+    font-family: 'Book Antiqua';
+    font-size:large;
+}
+
+.div_Rent {
+    position:absolute;top:35px;right:18px;
+    color:red;
+    font-family: 'Book Antiqua';
+    font-size:large;
+}
+
+.sub_Div_Link {
+	background-color: rgb(128, 49, 160);
+    display: block;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.4rem;
+}
+
+ a.tablink
+        {
+            font-family:Arial;
+            text-decoration:none;
+            font-weight:bold;
+            font-stretch:expanded;
+        }
+        a.tablink:hover
+        {
+            color:#EAD53D;
+        }
+
+.editProfile {
+    position:absolute;
+    top:40px;
+    right:20px;
+    text-align:right;
+    
+}
+.lblUser {
+    position:absolute;
+    top:10px;
+    left:20px;    
+}
+.divUser {
+    position:absolute;
+    top:10px;
+    left:20px;
+}
+
+.searchDiv {
+    position:absolute;
+    top:50px;
+    right:100px;
+}
+
+.searchBox {
+        /*position: relative;
+        top: 8px;
+        height: 40px;
+        border: none;
+        font-size: larger;*/
+}
+
+.searchButton {
+     
+    
+}
+
+#logoDiv{
+    text-align:left;
+    position:relative;
+    top:10px;
+    left:40px;
+    border:solid 1px red;
+    width:300px;
+}
+
+.slogen {
+    font-family:'Courier New';
+    color:white;
+    font-weight: 600;
+    font-size:20px
+}
+
+        a.clslinkSearch{
+            color:black;
+            font-size:26px;
+            text-decoration:none;
+        }
+        a.clslinkSearch:hover{
+            color:white;     
+            cursor:pointer;
+        }
+
+        a.clslink
+        {
+            font-family: sans-serif;
+            color:white;
+            text-decoration:none;
+            font-weight:bold;
+                    
+        }
+        a.clslink:hover
+        {            
+             color:#EAD53D;
+            text-decoration:underline;
+        }
+
+         a.clslink_Alter
+        {
+            font-family: sans-serif;
+            color:white;
+            text-decoration:none;
+            font-weight:bold;
+                    
+        }
+        a.clslink_Alter:hover
+        {
+            color:#EAD53D;
+            text-decoration:underline;
+        }
+      
+        #scroller {
+        background-color: #424242;
+        padding-left: 40px;
+        height: 250px;
+        background-image: url(Site_Images/Home_Scroll.jpg);
+        background-repeat: repeat-x;
+        }        
+       
+
+ #resize_div_Desktop {
+    position: fixed;     
+    width: 20%;
+    border:1px solid rgb(128, 49, 160);
+    visibility: hidden;   
+    background-color:white;
+    
+}
+
+ #resize_div_Mobile {
+    position: fixed;     
+    width: 75%;
+    border:1px solid rgb(128, 49, 160);
+    visibility: hidden;   
+    background-color:white;
+}
+
+
+
+#CloseImage {
+    position:absolute;
+    top:0px;right:0px;
+    cursor:  pointer;
+    width:20px;
+}
+
+
+  

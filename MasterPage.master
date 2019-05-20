@@ -1,0 +1,136 @@
+﻿    <%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta name="google-site-verification" content="WixJgM_uDgTkIwnGPlwoJ5YXIUXgJqED08Ru1Tl0axU" />
+
+    <%--<title> Real Estate Consultant and Agent /Channel Partner in PCMC / pune - Home </title>--%>
+
+    <meta name="description" content="Buy Sell Rent Flat / Shop / Office / Property in pimpri chinchwad 'PCMC', pune.Choose from the ongoing, upcoming, resale 'Real Estate' projects on estate meet. Real Estate Consultant | Channel Partner | Agent in PCMC | Pune in Pimpri-Chinchwad" />
+
+    <meta name="keywords" content="estatemeet.com, estatemeet.in, estate meet, meet estate, Property in PCMC, Real Estate in PCMC, Property Site, real estate, Residential Property in PCMC, Commertial Property in PCMC"/>
+
+    
+
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+    
+    
+    
+     
+    <link rel="stylesheet" href="css/style.css"/>   
+    
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <style type="text/css">
+        
+        .containe {
+            display: grid;
+            grid-gap: 5px;
+            grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+            /*grid-template-rows: repeat(auto-fit, 100px);*/
+            
+            font-size: 15px;
+            font-family: 'Bookman Old Style';
+            padding:15px 0px;        
+            background-color:rgb(128, 49, 160);
+
+        }
+
+    </style>   
+    
+      <script type="text/javascript" >
+
+        //var html_code = "<a href='Why-brokerplus.aspx'> <img src='Site_Images/For_Sale.jpg' alt='' style='width:200px;'> </a>";
+        //html_code += '<br></br> <a href="Why-brokerplus.aspx" class="why_BrokerPluss"> Why You Should Choose Us?</a>';
+
+        //buildPopup_HtmlCode(210, 250, 'Why Broker Pluss?', html_code);
+        //ShowTheBox(false, rightSide, topCorner, topDown);
+        //setInterval('ShowTheBox(false, rightSide, topCorner, topDown)', 10000);
+        //ShowTheBox(false, rightSide, topCorner, topDown);
+        //ShowTheBox(false, leftSide, bottomCorner, bottopUp);        
+
+    </script>
+
+    <asp:ContentPlaceHolder id="head" runat="server">                
+              
+    </asp:ContentPlaceHolder>
+
+</head> 
+
+<body style="margin:0px;">
+    <form id="Main_Form" runat="server">
+   
+    
+    <div style="position:relative;">
+
+         <a href="Default.aspx" class="clslink">
+            <img src="Site_Images/Logo_Final.jpg" alt="" style="position:relative;top:0px;left:10px;width:300px" /> 
+        </a>        
+         
+
+        <center>
+    
+        <div class="container">            
+            <div class="topnav" id="myTopnav">
+                <a href="Default.aspx" class="clslink">     HOME        </a> &nbsp;&nbsp;
+                <a href="Buy_Property.aspx" class="clslink_Alter">  BUY </a> &nbsp;&nbsp;
+                <a href="Sell_Property.aspx" class="clslink">  SELL </a> &nbsp;&nbsp;
+                <a href="Properties_For_Rent.aspx" class="clslink_Alter">  ON RENT </a> &nbsp;&nbsp;
+                <a href="Rent_Your_Property.aspx" class="clslink">  LEASE OUT </a> &nbsp;&nbsp;
+                <a href="Cust_Enquiries.aspx" class="clslink_Alter">  ENQUIRIES </a> &nbsp;&nbsp;
+                <a href="Post_Enquiry.aspx" class="clslink_Alter">  POST ENQUIRY </a> &nbsp;&nbsp;
+                <a href="About_Us.aspx" class="clslink">  ABOUT US </a>
+                <a href="javascript:void(0);" style="font-size: 15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+        </div>
+
+        </center>
+          
+        <div style="text-align:left; border:solid 0px red; position:relative; color:black" >
+        
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                
+              
+        </asp:ContentPlaceHolder>
+        </div>
+
+        <a href="Why-estatemeet.aspx" class="clslink"> <img src="Site_Images/WhyWe.jpg" class="side_Bar" alt="" /> </a>
+
+        <a href="https://api.whatsapp.com/send?phone=919112073377&text=Our%20requirement%20is..." target="_blank" class="clslink"> <img src="Site_Images/WhatsApp_Us.jpg" class="side_Bar_WhatsApp" alt="" /> </a>
+        
+        <%--<a href="https://web.whatsapp.com/send?phone=919112073377&text=Hi" target="_blank" class="clslink"> <img src="Site_Images/WhatsApp.jpg" class="side_Bar_WhatsApp" alt="" /> </a>--%>
+        
+            <div style="height:60px;color:white; font-family:Bookman Old Style; background-color:rgb(128, 49, 160);position:relative">
+               <center>
+                
+                    <label> © by www.estatemeet.in </label>
+              
+                    <img src="Site_Images/maharera.png" alt="" style="position:relative;top:0px;left:10px;height:60px" />               
+                
+               </center>
+            </div>
+            
+        
+        
+    </div>
+    
+    </form>
+    
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    
+</body>
+</html>

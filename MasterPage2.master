@@ -1,0 +1,75 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage2.master.cs" Inherits="MasterPage2" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+
+   <title> estatemeet.in </title>
+
+    <meta name="description" content="Find Property for Sale/Rent in PCMC. Properties on estatemeet.in. Buy from estatemeet.in. Rent from estatemeet.in New Projects."/>
+
+    <meta name="keywords" content="estatemeet.com, estatemeet.in, estate meet, meet estate, Property in PCMC, Real Estate in PCMC, Property Site, real estate, Residential Property in PCMC, Commertial Property in PCMC"/>
+
+    <link rel="icon" href="Site_Images/LogoBig.png" type="image/png"/> 
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+    <script src="functions.js" lang="javascript" type="text/javascript"></script>
+    <script src="jquery-3.3.1.min.js" type="text/javascript"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+     <style type="text/css">
+        
+        .container_Master2 {
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+            /*grid-template-rows: repeat(auto-fit, 100px);*/
+            
+            font-size: 15px;
+            font-family: 'Bookman Old Style';
+            padding:20px 10px;        
+            background-color: rgb(128, 49, 160);
+        }
+
+    </style>   
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body style="margin: 0px;">
+    <form id="form1" runat="server">
+
+        <div class="container_Master2">            
+            
+            <a href="Default.aspx" class="clslink">     HOME        </a> &nbsp;
+            <a href="Buy_Property.aspx" class="clslink_Alter">  BUY </a> &nbsp;
+            <a href="Sell_Property.aspx" class="clslink">  SELL </a> &nbsp;
+            <a href="Properties_For_Rent.aspx" class="clslink_Alter">  ON RENT </a> &nbsp;
+            <a href="Rent_Your_Property.aspx" class="clslink">  LEASE OUT </a> &nbsp;
+            <a href="Cust_Enquiries.aspx" class="clslink_Alter">  ENQUIRIES </a> &nbsp;
+            <a href="Post_Enquiry.aspx" class="clslink_Alter">  POST ENQUIRY </a> &nbsp;
+            <a href="About_Us.aspx" class="clslink">  ABOUT US </a> 
+
+        </div>
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+         <%--<a href="Why_We.aspx" class="clslink"> <img src="Site_Images/Why_We.jpg" class="side_Bar" alt="" /> </a>--%>
+
+        <a href="Why-estatemeet.aspx" class="clslink"> <img src="Site_Images/WhyWe.jpg" class="side_Bar" alt="" /> </a>
+
+        <a href="https://api.whatsapp.com/send?phone=919112073377&text=Our%20requirement%20is..." target="_blank" class="clslink"> <img src="Site_Images/WhatsApp_Us.jpg" class="side_Bar_WhatsApp" alt="" /> </a>
+       
+         <div style="height:50px;color:white; font-family:Bookman Old Style; background-color:rgb(128, 49, 160);position:relative">
+            <p style="padding-top:10px;margin:0px">
+                &nbsp;&nbsp;© by www.estatemeet.in
+            </p> 
+            <label style="position:absolute;right:10px;bottom:5px"> Designed and Developed by Sack-Technology. &nbsp;</label>                
+        </div>
+    </form>
+</body>
+</html>
